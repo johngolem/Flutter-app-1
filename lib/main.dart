@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
               ),
               FloatingActionButton(
                 child: Text("Answ-3"),
-                onPressed: () => print("answer 3 chosen!"),
+                onPressed: () { print("answer 3 chosen!");},
               ),
             ],
           )
